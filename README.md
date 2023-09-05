@@ -10,11 +10,14 @@ Rodar os comandos
 Clonar o projeto
 ```git@github.com:aquilahenrique/datum.git```
 
-Baixar as imagens e rodar os containers```docker-compose up -d```
+Baixar as imagens e rodar os containers 
+```docker-compose up -d```
 
-Instalar as dependencias```docker-compose exec php-fpm composer install```
+Instalar as dependencias 
+```docker-compose exec php-fpm composer install```
 
-Criar as migrations ```docker-compose exec php-fpm ./bin/console doc:mig:mig --quiet```
+Criar as migrations 
+```docker-compose exec php-fpm ./bin/console doc:mig:mig --quiet```
 
 ## Testar a aplicação
 
